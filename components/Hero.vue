@@ -8,7 +8,11 @@
       </p>
       <button class="button btn">Start Looking</button>
     </div>
-    <img class="image" src="" alt="fire extinguisher" />
+    <img
+      class="image"
+      src="~assets/svg/fire-extinguisher.svg"
+      alt="fire extinguisher"
+    />
   </div>
 </template>
 
@@ -16,7 +20,7 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 .Hero {
   height: 50vh;
   position: relative;

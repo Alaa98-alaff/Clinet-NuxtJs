@@ -1,4 +1,6 @@
-<template> </template>
+<template>
+  <Hero />
+</template>
 
 <script>
 export default {};
