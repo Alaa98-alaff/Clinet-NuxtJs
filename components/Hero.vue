@@ -22,10 +22,10 @@ export default {};
 
 <style scoped>
 .Hero {
-  height: 50vh;
+  /* height: 50vh; */
   position: relative;
   display: flex;
-  padding: 5rem 0;
+  padding: 3rem 0;
   align-items: flex-start;
   justify-content: space-between;
 }

@@ -1,4 +1,19 @@
-<template> </template>
+<template>
+  <div class="container">
+    <h4 class="header">
+      {{ cardsSection.title }}
+    </h4>
+    <p class="snippet">
+      {{ cardsSection.snippet }}
+    </p>
+  </div>
+</template>
+
+<script>
+export default {
+  props: ["cardsSection"]
+};
+</script>
 
 <style scoped>
 .container {
