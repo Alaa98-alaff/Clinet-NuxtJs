@@ -24,7 +24,7 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ["nuxt-vite"],
+  // buildModules: ["nuxt-vite"],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

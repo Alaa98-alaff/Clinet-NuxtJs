@@ -6,6 +6,13 @@
     <p class="snippet">
       {{ cardsSection.snippet }}
     </p>
+    <div class="cards-container">
+      <LargeCard
+        v-for="card in cardsSection.cards"
+        :key="card.id"
+        :card="card"
+      />
+    </div>
   </div>
 </template>
 
@@ -17,7 +24,7 @@ export default {
 
 <style scoped>
 .container {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 .header {
   font-weight: 700;
